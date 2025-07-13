@@ -98,13 +98,13 @@ Bash script for automating port scanning using Rustscan and Nmap.
 ```bash
 git clone https://github.com/yourusername/port-scan.git
 cd port-scan
-chmod +x portas.sh
+chmod +x ports.sh
 ```
 
 ## 🚀 Usage
 Run the script with administrative privileges:
 ```bash
-sudo ./portas.sh
+sudo ./ports.sh
 ```
 ## Features:
  - Prompts for the target IP address
