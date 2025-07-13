@@ -1,4 +1,4 @@
-# 🔍 portas-scan
+# 🔍 redscan-toolkit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Shell](https://img.shields.io/badge/Shell-Bash-blue.svg?logo=gnu-bash)](https://www.gnu.org/software/bash/)
@@ -70,7 +70,7 @@ Gabriel Martorelli
 🐙 github.com/GabrielMartorelli
 
 
-## 🔍 port-scan
+## 🔍 redscan-toolkit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Shell](https://img.shields.io/badge/Shell-Bash-blue.svg?logo=gnu-bash)](https://www.gnu.org/software/bash/)
