@@ -62,7 +62,7 @@ Deseja usar o script de banner grab (--script=banner)? (y/n): n
 ```
 
 ## 📜 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/GabrielMartorelli/redscan-toolkit/blob/main/LICENSE) para mais detalhes.
 
 ## 🙋‍♂️ Autor
 Gabriel Martorelli
@@ -134,7 +134,7 @@ Use banner grabbing script (--script=banner)? (y/n): n
 ```
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/GabrielMartorelli/redscan-toolkit/blob/main/LICENSE) file for details.
 
 ## 🙋‍♂️ Author
 Gabriel Martorelli
