@@ -24,8 +24,8 @@ Script Bash para automação de varredura de portas utilizando Rustscan e Nmap.
 ## 📦 Instalação
 
 ```bash
-git clone https://github.com/seuusuario/portas-scan.git
-cd portas-scan
+git clone https://github.com/GabrielMartorelli/redscan.git
+cd redscan
 chmod +x portas.sh
 ```
 
@@ -49,7 +49,7 @@ sudo ./portas.sh
 
 ## 📁 Exemplo de execução:
 ```text
-[*] Diretório atual onde o script está rodando: /home/user/portas-scan
+[*] Diretório atual onde o script está rodando: /home/user/redscan
 Digite o IP alvo: 192.168.1.100
 [*] Rodando Rustscan no IP 192.168.1.100...
 [*] Portas abertas encontradas (salvas em Ports.txt):
@@ -96,9 +96,9 @@ Bash script for automating port scanning using Rustscan and Nmap.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/port-scan.git
-cd port-scan
-chmod +x ports.sh
+git clone https://github.com/GabrielMartorelli/redscan.git
+cd redscan
+chmod +x portas.sh
 ```
 
 ## 🚀 Usage
@@ -121,7 +121,7 @@ sudo ./ports.sh
 
 ## 📁 Example Run
 ```text
-[*] Current directory where the script is running: /home/user/port-scan
+[*] Current directory where the script is running: /home/user/redscan
 Enter target IP: 192.168.1.100
 [*] Running Rustscan on IP 192.168.1.100...
 [*] Open ports found (saved in Ports.txt):
