@@ -69,11 +69,11 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https
 - 🔗 linkedin.com/in/gabriel-martorelli
 - 🐙 github.com/GabrielMartorelli
 
-### Atualização do Script de Scanner
+# Atualização do Script de Scanner
 
 Esta nova versão do script traz diversas melhorias importantes para facilitar o uso em ambientes reais, especialmente quando se trabalha com múltiplos alvos.
 
-### Novidades e melhorias:
+## Novidades e melhorias (V1 para V2):
 
 - **Varredura em lote:** agora você pode fornecer um arquivo com múltiplos IPs para escanear de forma sequencial, aumentando a produtividade.
 - **Validação aprimorada:** o script verifica se o arquivo de IPs está vazio, ignora linhas vazias ou IPs inválidos, evitando erros de execução.
@@ -85,7 +85,7 @@ Esta nova versão do script traz diversas melhorias importantes para facilitar o
 - **Timeout para Rustscan:** previne que hosts travem o script por muito tempo.
 - **Logs coloridos e claros:** para facilitar o acompanhamento do processo.
 
-### Uso recomendado:
+## Uso recomendado:
 
 - Crie um arquivo de IPs, um por linha, e forneça o caminho para o script.
 - Configure as flags do Nmap apenas uma vez.
@@ -172,7 +172,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 # Scanner Script Update
 This new version of the script brings several important improvements to make it easier to use in real environments, especially when working with multiple targets.
 
-What's new and improved:
+## What's new and improved (V1 for V2):
 
 - **Batch scanning:** You can now provide a file with multiple IPs to scan sequentially, increasing productivity.
 - **Enhanced validation:** The script checks if the IP file is empty, ignores empty lines or invalid IPs, preventing execution errors.
