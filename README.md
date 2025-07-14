@@ -69,6 +69,34 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https
 - 🔗 linkedin.com/in/gabriel-martorelli
 - 🐙 github.com/GabrielMartorelli
 
+### Atualização do Script de Scanner
+
+Esta nova versão do script traz diversas melhorias importantes para facilitar o uso em ambientes reais, especialmente quando se trabalha com múltiplos alvos.
+
+### Novidades e melhorias:
+
+- **Varredura em lote:** agora você pode fornecer um arquivo com múltiplos IPs para escanear de forma sequencial, aumentando a produtividade.
+- **Validação aprimorada:** o script verifica se o arquivo de IPs está vazio, ignora linhas vazias ou IPs inválidos, evitando erros de execução.
+- **Perguntas Nmap unificadas:** as opções do Nmap (-sS, -sT, -Pn, banner) são perguntadas apenas uma vez no início, para evitar repetição cansativa em múltiplos alvos.
+- **Ping opcional:** o script tenta pingar o host para aviso, mas mesmo que o ping falhe, o scan prossegue, útil para redes que bloqueiam ICMP.
+- **Arquivos organizados:** resultados do Rustscan e Nmap são salvos em arquivos separados por IP, facilitando a análise e gerenciamento.
+- **Robustez:** o script não para se algum IP falhar, garantindo que a varredura continue para todos os hosts listados.
+- **Controle de sudo:** mantém o sudo ativo durante toda a execução, evitando requisições repetidas de senha.
+- **Timeout para Rustscan:** previne que hosts travem o script por muito tempo.
+- **Logs coloridos e claros:** para facilitar o acompanhamento do processo.
+
+### Uso recomendado:
+
+- Crie um arquivo de IPs, um por linha, e forneça o caminho para o script.
+- Configure as flags do Nmap apenas uma vez.
+- Deixe o script rodar e confira os arquivos de saída para cada host.
+
+---
+
+Essas melhorias tornam o script mais flexível, robusto e prático para auditorias de rede e pentests em ambientes reais, onde múltiplos hosts precisam ser analisados rapidamente.
+
+
+
 
 ## 🔍 redscan-toolkit
 
@@ -140,3 +168,23 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 - Gabriel Martorelli
 - 🔗 linkedin.com/in/gabriel-martorelli
 - 🐙 github.com/GabrielMartorelli
+
+# Scanner Script Update
+This new version of the script brings several important improvements to make it easier to use in real environments, especially when working with multiple targets.
+
+What's new and improved:
+
+- **Batch scanning:** You can now provide a file with multiple IPs to scan sequentially, increasing productivity.
+- **Enhanced validation:** The script checks if the IP file is empty, ignores empty lines or invalid IPs, preventing execution errors.
+- **Unified Nmap prompts:** Nmap options (-sS, -sT, -Pn, banner) are asked only once at the start, avoiding repetitive prompts for multiple targets.
+- **Optional ping check:** The script attempts to ping hosts as a warning, but will proceed with scanning even if ping fails — useful for networks blocking ICMP.
+- **Organized output files:** Rustscan and Nmap results are saved in separate files per IP, making analysis and management easier.
+- **Robustness:** The script doesn’t stop if an IP fails, ensuring scanning continues for all listed hosts.
+- **Sudo management:** Keeps sudo active throughout the execution, avoiding repeated password prompts.
+- **Timeout for Rustscan:** Prevents hosts from hanging the script for too long.
+- **Clear and colorful logs:** Helps you easily follow the scanning process.
+
+## Recommended usage:
+- Create a file with one IP per line and provide its path to the script.
+- Configure Nmap flags once.
+- Let the script run and check the output files for each host.
